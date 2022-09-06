@@ -12,3 +12,13 @@ while [ $count -ne 4 ] ; do
     fi
     ((count++))
 done
+
+# Contents of: /home/anthony/Documents/Bash/BNWifi.sh
+##!/bin/bash
+
+#wpa_cli flush
+#wpa_cli add_network
+#wpa_cli set_network 0 ssid "BNWifi"
+#wpa_cli set_network 0 key_mgmt NONE
+#wpa_cli enable_network 0
+#wpa_cli quit
