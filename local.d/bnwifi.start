@@ -4,13 +4,12 @@ count=0;
 
 while [ $count -ne 4 ] ; do
     if [[ `wpa_cli scan && wpa_cli scan_results | egrep -io bnwifi` ]] ; then
-        /bin/bash /home/anthony/Documents/Bash/BNWifi.sh 
-	count=4;
-	exit;
+        /bin/bash /home/anthony/Documents/Bash/BNWifi.sh ;
+	exit ;
     else
-        sleep 5;
+        sleep 5 ;
     fi
-    ((count++))
+    ((count++)) ;
 done
 
 # Contents of: /home/anthony/Documents/Bash/BNWifi.sh
