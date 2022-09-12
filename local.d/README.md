@@ -1,0 +1,1 @@
+bnwifi.start is a script that uses wpa_cli commands to manually connect to the Barnes and noble AP because using the wpa_supplicant conf doesn't work when the network is automatically brought up on boot.  
